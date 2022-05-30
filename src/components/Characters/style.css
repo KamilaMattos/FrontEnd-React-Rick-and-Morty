@@ -1,0 +1,13 @@
+.containerCards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 950px;
+}
+
+h1 {
+  text-align: center;
+  color: salmon;
+  text-transform: uppercase;
+}

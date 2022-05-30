@@ -1,0 +1,28 @@
+img {
+  width: 150px;
+  height: 150px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 220px;
+  align-items: center;
+  border: 1px solid salmon;
+  margin-top: 20px;
+}
+
+p {
+  color: white;
+  text-align: center;
+  max-width: 15ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+p:hover {
+  max-width: 100%;
+}
